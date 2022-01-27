@@ -54,7 +54,7 @@ def main():
                 path=args.input,
                 left=args.left)
         except TypeError:
-            print 'Did not calculate the color bound.'
+            print ('Did not calculate the color bound.')
     elif key == ord('h'):
         cd.draw_contours(lower_color, upper_color)
 
